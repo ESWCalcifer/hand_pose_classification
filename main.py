@@ -8,9 +8,9 @@ def rps(num):
   else: return 'SCISSOR'
 
 # just importing shit
-from cv2 import cv2
+import cv2
 import hand_detection_module
-from data_generation import num_hand
+from data_generate import num_hand
 import pickle
 from id_distance import calc_all_distance
 

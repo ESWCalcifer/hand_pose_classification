@@ -3,7 +3,7 @@ from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 import pickle
-from data_generation import num_class
+from data_generate import num_class
 
 # combining all data into one
 hand_df = pd.DataFrame()
